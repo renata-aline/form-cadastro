@@ -1,0 +1,41 @@
+.form {
+  padding: 18px;
+  background-color: $primary-Darker;
+  color: $Text-secondary;
+
+  .form-content {
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+
+    label {
+      display: inline-block;
+      margin-bottom: 4px;
+    }
+  }
+  input {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: $primary-Darker;
+    border: 2px solid $Primary-Light;
+    color: $Text-Primary;
+}
+  a{
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        visibility: hidden;
+ }
+
+  
+  .form-content.error input{
+    border-color:$primary-Dark;
+  }
+  .form-content.error a{
+    color:$primary-Dark;
+    visibility: visible;
+  }
+
+}
