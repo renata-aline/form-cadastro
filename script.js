@@ -24,6 +24,10 @@ password.addEventListener("blur", () => {
     checkInputPassword();
 })
 
+passwordConfirmation.addEventListener("blur", () => {
+    checkInputPasswordConfirmation();
+})
+
 
 
 function checkInputUsername(){
